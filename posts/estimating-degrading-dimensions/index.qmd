@@ -1,0 +1,59 @@
+---
+title: "Estimating Degrading Dimensions Efficiently"
+description: "A group-ablation approach for identifying harmful dimensions."
+author: "Your Name"
+date: "2026-07-31"
+categories:
+  - Research Problems
+  - Representation Learning
+  - Ablation
+draft: false
+---
+
+## Problem
+
+Suppose a representation contains \(D\) dimensions. Some dimensions
+improve performance, while others degrade performance.
+
+Leave-one-out evaluation requires approximately \(D\) experiments,
+which becomes expensive when \(D\) is large.
+
+## Research question
+
+Can we identify degrading dimensions using a much smaller number of
+uniformly designed group ablations?
+
+## Current idea
+
+Construct a binary experiment matrix
+
+\[
+Z \in \{0,1\}^{T \times D},
+\]
+
+where every experiment removes exactly \(m\) dimensions and every
+dimension appears approximately equally often.
+
+## Potential method
+
+Estimate the dimension effects using Elastic Net:
+
+\[
+\hat{\delta}
+=
+\arg\min_{\delta}
+\|y-Z\delta\|_2^2
++\lambda_1\|\delta\|_1
++\lambda_2\|\delta\|_2^2.
+\]
+
+## Open questions
+
+1. How many experiments are required?
+2. How should the experiment matrix be constructed?
+3. How robust is the estimate under interaction effects?
+4. How should degrading dimensions be validated?
+
+## Status
+
+Early-stage research idea.
