@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>My Research</title>
-<link>https://your-website-url.example.com/</link>
-<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
-<description>A blog built with Quarto</description>
+<link>https://vulamanh151203.github.io/my-research-blog/</link>
+<atom:link href="https://vulamanh151203.github.io/my-research-blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Vu Lam Anh Research Blog</description>
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Fri, 31 Jul 2026 17:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://your-website-url.example.com/posts/post-with-code/</link>
+  <link>https://vulamanh151203.github.io/my-research-blog/posts/post-with-code/</link>
   <description><![CDATA[ 
 
 
@@ -29,14 +29,14 @@
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
-  <guid>https://your-website-url.example.com/posts/post-with-code/</guid>
+  <guid>https://vulamanh151203.github.io/my-research-blog/posts/post-with-code/</guid>
   <pubDate>Fri, 31 Jul 2026 17:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://vulamanh151203.github.io/my-research-blog/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Estimating Degrading Dimensions Efficiently</title>
   <dc:creator>Your Name</dc:creator>
-  <link>https://your-website-url.example.com/posts/estimating-degrading-dimensions/</link>
+  <link>https://vulamanh151203.github.io/my-research-blog/posts/estimating-degrading-dimensions/</link>
   <description><![CDATA[ 
 
 
@@ -83,13 +83,13 @@
   <category>Research Problems</category>
   <category>Representation Learning</category>
   <category>Ablation</category>
-  <guid>https://your-website-url.example.com/posts/estimating-degrading-dimensions/</guid>
+  <guid>https://vulamanh151203.github.io/my-research-blog/posts/estimating-degrading-dimensions/</guid>
   <pubDate>Thu, 30 Jul 2026 17:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome To My Blog</title>
   <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://your-website-url.example.com/posts/welcome/</link>
+  <link>https://vulamanh151203.github.io/my-research-blog/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -97,14 +97,14 @@
 
 
 <p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://your-website-url.example.com/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p><img src="https://vulamanh151203.github.io/my-research-blog/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 
 
 
  ]]></description>
   <category>news</category>
-  <guid>https://your-website-url.example.com/posts/welcome/</guid>
+  <guid>https://vulamanh151203.github.io/my-research-blog/posts/welcome/</guid>
   <pubDate>Tue, 28 Jul 2026 17:00:00 GMT</pubDate>
 </item>
 </channel>
